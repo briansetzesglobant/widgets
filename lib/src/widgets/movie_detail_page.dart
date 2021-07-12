@@ -6,14 +6,14 @@ import 'movie_detail_information.dart';
 import 'movie_detail_overview.dart';
 import 'movie_detail_title.dart';
 
-class MovieDetail extends StatelessWidget {
+class MovieDetailPage extends StatelessWidget {
   final String movieTitle;
   final String moviePosterPath;
   final String movieReleaseDate;
   final String movieVoteAverage;
   final String movieOverview;
 
-  MovieDetail({
+  MovieDetailPage({
     required this.movieTitle,
     required this.movieOverview,
     required this.movieReleaseDate,

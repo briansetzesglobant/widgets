@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../utils/constants.dart';
+import '../../utils/movie_strings.dart';
 
 class MovieDetailImage extends StatelessWidget {
   final String posterPath;
@@ -17,7 +18,7 @@ class MovieDetailImage extends StatelessWidget {
         Constants.paddingImage,
       ),
       child: FadeInImage.assetNetwork(
-        placeholder: posterPath,
+        placeholder: MovieStrings.movieDetailImageDefaultLocal,
         image: posterPath,
         fit: imageBoxFit,
       ),
